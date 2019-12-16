@@ -5,7 +5,7 @@
 主に以下の三点についてを目標としています。
 + C/C++でのソートをメインとしたアルゴリズムの実装
 + GitHubによる共同開発とコードレビュー、可読性を意識したコーディング
-+ CircleCIを用いた自動テスト環境/CIへの慣れ
++ ~CircleCI~ GitHub Actionsを用いた自動テスト環境/CIへの慣れ
 
 ## 開発の流れ
 1. ソートアルゴリズムについてのissueを立てる
@@ -17,3 +17,16 @@
 1. pushのたびにテストが走るので、それが通っていたら開発をすすめる、落ちたらデバッグ
 1. 実装が終わったら、PullRequestを出す
 1. 出されたものはコードレビューをし、問題がなければmasterにmergeする
+
+## テストについて
+今回はGitHub Actionsでテストを走らせます。  
+最初はCircleCIのつもりだったんですが...はい。なんとなく使ってみたいのでこれで行きます。  
+今回は以下の構成で行きましょう  
++ テストフレームワーク：Google Test(以下gtest)
++ CI環境：GitHub Actions
++ 参考資料：[GitHub Actionsを使ってみた - Qiita](https://qiita.com/toppy-luna/items/8358c19bbfb2aee4e848)
+
+gtestの書き方については以下を参考にします  
+[Googletest Primer](https://github.com/google/googletest/blob/master/googletest/docs/primer.md)
+
+テスト項目については網羅的にテストをしているかを考えながらやっていきましょう。カバレッジは面倒なので序盤はやりません。
