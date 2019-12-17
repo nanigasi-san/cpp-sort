@@ -27,6 +27,7 @@
 + 参考資料：[GitHub Actionsを使ってみた - Qiita](https://qiita.com/toppy-luna/items/8358c19bbfb2aee4e848)
 
 gtestの書き方については以下を参考にします  
-[Googletest Primer](https://github.com/google/googletest/blob/master/googletest/docs/primer.md)
++ [Googletest Primer](https://github.com/google/googletest/blob/master/googletest/docs/primer.md)  
++ [Googlte Testを導入してみた - Qiita](https://qiita.com/y-vectorfield/items/6238cfd2d9c34aefe364)  
 
 テスト項目については網羅的にテストをしているかを考えながらやっていきましょう。カバレッジは面倒なので序盤はやりません。
