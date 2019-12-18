@@ -31,3 +31,10 @@ gtestの書き方については以下を参考にします
 + [Googlte Testを導入してみた - Qiita](https://qiita.com/y-vectorfield/items/6238cfd2d9c34aefe364)  
 
 テスト項目については網羅的にテストをしているかを考えながらやっていきましょう。カバレッジは面倒なので序盤はやりません。
+
+
+## 仕様策定
+### sort
+1. 引数はvecter
+2. 返り値はvecter  
+がんばろう！
