@@ -29,6 +29,7 @@
 gtestの書き方については以下を参考にします  
 + [Googletest Primer](https://github.com/google/googletest/blob/master/googletest/docs/primer.md)  
 + [Googlte Testを導入してみた - Qiita](https://qiita.com/y-vectorfield/items/6238cfd2d9c34aefe364)  
++ [入門ガイド - Google Test ドキュメント](http://opencv.jp/googletestdocs/primer.html#primer)  
 
 テスト項目については網羅的にテストをしているかを考えながらやっていきましょう。カバレッジは面倒なので序盤はやりません。
 
